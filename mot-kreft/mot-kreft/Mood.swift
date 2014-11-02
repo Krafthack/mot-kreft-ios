@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct Mood {
+    let id:Int?
+    let ts:String?
+    let userId: Int?
+    let comment:String?
+    let location:String?
+    let feel: Int?
+}
